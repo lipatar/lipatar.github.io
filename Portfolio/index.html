@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Lipata R</title>
+</head>
+<body>
+
+<!--Nav-->
+<!-- <body data-spy="scroll" data-target=".navbar" data-offset="60"> -->
+<div class="container">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container" id="nav">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#about" id="logo-ron">LipataR</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--Intro-->
+  <div class="container text-center">
+	<div class="col-sm-12">
+	  <div class="jumbotron text-center">
+		 <p style="font-size: 1.5em;">Hi friends! :)</p><br>
+		 <p style="font-size: 1.2em;">I am glad to have you here.<br>I hope you can find my website interesting ...</p>
+	  </div>
+	  <hr>
+	</div>
+  </div>
+
+<!--About-->
+	<div class="container text-center" id="about">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="card">
+					<img src="img/ron-icon.png">
+					<div class="about-name">
+						<h3>Ronaldo P. Lipata</h3>
+						<p>Web Developer</p>
+						<hr style="width: 200px;">
+      			<div class="container-fluid" id="about-details">
+      				<div class="col-sm-4">
+      					<p><span class="glyphicon glyphicon-home"></span>Fourth Estate, Parañaque, Phippines, Earth</p>
+      				</div>
+      				<div class="col-sm-4">
+      					<p><span class="glyphicon glyphicon-education"></span>Christ the King College of Science & Technology</p>
+      				</div>
+      				<div class="col-sm-4">
+      					<p><span class="glyphicon glyphicon-briefcase"></span>IT Desktop Support Engineer at EastWest Bank</p>
+      				</div>
+      			</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <hr>
+
+<!--Skills-->
+	<div class="container text-center" id="skills">
+	  <h2>Skills</h2>
+		<div class="row">
+			<div class="col-sm-2">
+			</div>
+			<div class="col-sm-3 skills-progress">
+				<p>HTML</p>
+				<div id="progress">
+					<div id="html">85%</div>
+				</div>
+				<p>CSS</p>
+				<div id="progress">
+					<div id="css">75%</div>
+				</div>
+				<p>BOOTSTRAP</p>
+				<div id="progress">
+					<div id="bootstrap">50%</div>
+				</div>
+			</div>
+			<div class="col-sm-2">
+			</div>
+			<div class="col-sm-3 skills-progress">
+			  <p>JavaScript</p>
+				<div id="progress">
+					<div id="javascript">10%</div>
+				</div>
+				<p>PHP</p>
+        <div id="progress">
+					<div id="php">30%</div>
+				</div>
+			</div>
+			<div class="col-sm-2">
+			</div>
+		</div>
+	</div>
+
+  <hr>
+
+<!--Contact-->
+	<div class="container-fluid text-center" id="contact">
+		<div class="row">
+  		<h2>Send me an email!</h2>
+  		<div class="col-sm-3">
+  		</div>
+  		<div class="col-sm-6">
+  	  	<form action="/action_page.php">
+  			  <label for="fname">First Name</label>
+  			  <input type="text" id="fname" name="firstname" placeholder="First Name">
+          <label for="lname">Last Name</label>
+  				<input type="text" id="lname" name="lastname" placeholder="Last Name">
+  				<label for="country">Country</label>
+  					<select id="country" name="country">
+  					  <option value="australia">Australia</option>
+  					  <option value="canada">Canada</option>
+  					  <option value="usa">USA</option>
+  					</select>
+        	<label for="subject">Subject</label>
+  					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+  			</form>
+  		</div>
+  		<div class="col-sm-3">
+  		</div>
+		</div>
+	</div>
+
+</div>
+
+<!--Footer-->
+  <footer class="container-fluid text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-2">
+          <a href="#"><i class="fa">&#xf082;</i>Facebook</a>
+        </div>
+        <div class="col-sm-2">
+          <a href="#"><i class="fa">&#xf081;</i>Twitter</a>
+        </div>
+        <div class="col-sm-2">
+          <a href="#"><i class="fa">&#xf0d4;</i>Google</a><br>
+        </div>
+        <div class="col-sm-3">
+        </div>
+      </div>
+    </div>
+    <label><i style="font-size:15px" class="fa">&#xf1f9;</i>LipataR 2018</label><br>
+    <label>All rights reserved.</label>
+  </footer>
+
+<!--JS-->
+<script>
+  $(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+
+    $(window).scroll(function() {
+      $(".slideanim").each(function(){
+        var pos = $(this).offset().top;
+
+        var winTop = $(window).scrollTop();
+          if (pos < winTop + 600) {
+            $(this).addClass("slide");
+          }
+      });
+    });
+  })
+
+</script>
+
+</body>
+</html>
